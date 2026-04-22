@@ -202,10 +202,10 @@ export default function App() {
             <h2 style={{ fontFamily: "Orbitron", fontSize: "2.5rem", marginBottom: 60 }}>TOKENOMICS<span className="neon-text">_</span></h2>
             <div className="tokenomics-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 25 }}>
               {[
-                { label: "Liquidity", value: "90%", desc: "Burned at launch. LP is toast." },
-                { label: "Marketing", value: "10%", desc: "Grown through community fire." },
+                { label: "Launch", value: "MOONSHOT", desc: "Fair launch completed on Moonshot. 100% transparent." },
+                { label: "Liquidity", value: "SECURED", desc: "Liquidity migration handled by Moonshot protocols." },
                 { label: "Supply", value: "1B", desc: "One Billion tokens. No more." },
-                { label: "Dev Alloc.", value: "0%", desc: "No dev wallets. Fair play." },
+                { label: "Dev Alloc.", value: "0%", desc: "No dev wallets. Community owned from block 1." },
               ].map((t, i) => (
                 <div key={i} className="corner-cut" style={{ background: "var(--bg-card)", padding: 35, border: "1px solid rgba(255,32,32,0.2)" }}>
                   <div style={{ color: "var(--neon-red)", fontSize: "2.2rem", fontWeight: 900, fontFamily: "Orbitron" }}>{t.value}</div>
