@@ -125,7 +125,7 @@ export default function App() {
               <a href="#about" className="nav-link">About</a>
               <a href="#tokenomics" className="nav-link">Tokenomics</a>
               <a href="#roadmap" className="nav-link">Roadmap</a>
-              <a href={BUY_LINK} target="_blank" rel="noreferrer" className="cta-btn" style={{ padding: "8px 20px", fontSize: "0.65rem" }}>BUY</a>
+              <a href="https://jup.ag/?buy=CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon" target="_blank" rel="noreferrer" className="cta-btn" style={{ padding: "8px 20px", fontSize: "0.65rem" }}>BUY</a>
             </div>
           </div>
         </nav>
@@ -158,7 +158,7 @@ export default function App() {
               </div>
 
               <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
-                <a href={BUY_LINK} target="_blank" rel="noreferrer" className="cta-btn">BUY $TOMATO</a>
+                <a href="https://jup.ag/?buy=CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon"target="_blank" rel="noreferrer" className="cta-btn">BUY $TOMATO</a>
                 <a href="https://t.me/tomatocoinsolana" target="_blank" rel="noreferrer" className="cta-btn cta-btn-green">TELEGRAM</a>
               </div>
 
