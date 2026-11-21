@@ -98,8 +98,8 @@ export default function App() {
   const [time, setTime] = useState("");
   
   // --- CONFIGURATION ---
-  const MINT_ADDRESS = "CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon";
-  const BUY_LINK = `https://pump.fun/coin/${MINT_ADDRESS}`;
+  const MINT_ADDRESS = "2oqw8YjLJwsC7Y6pA5VKfZGLKRMQAs3yjbv9F4Ks7zeF";
+  const BUY_LINK = `https://jup.ag/?buy=${MINT_ADDRESS}`;
   // ---------------------
 
   useEffect(() => {
@@ -125,7 +125,7 @@ export default function App() {
               <a href="#about" className="nav-link">About</a>
               <a href="#tokenomics" className="nav-link">Tokenomics</a>
               <a href="#roadmap" className="nav-link">Roadmap</a>
-              <a href="https://jup.ag/?buy=CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon" target="_blank" rel="noreferrer" className="cta-btn" style={{ padding: "8px 20px", fontSize: "0.65rem" }}>BUY</a>
+              <a href="https://jup.ag/?buy=2oqw8YjLJwsC7Y6pA5VKfZGLKRMQAs3yjbv9F4Ks7zeF" target="_blank" rel="noreferrer" className="cta-btn" style={{ padding: "8px 20px", fontSize: "0.65rem" }}>BUY</a>
             </div>
           </div>
         </nav>
@@ -143,7 +143,7 @@ export default function App() {
         <section className="grid-bg" style={{ minHeight: "85vh", display: "flex", alignItems: "center" }}>
           <div className="container hero-flex" style={{ display: "flex", alignItems: "center", gap: 60 }}>
             <div className="hero-text" style={{ flex: 1 }}>
-              <div style={{ color: "var(--neon-green)", fontFamily: "Share Tech Mono", fontSize: "0.8rem", marginBottom: 20 }}>[ MINT: LIVE ON PUMP.FUN ]</div>
+              <div style={{ color: "var(--neon-green)", fontFamily: "Share Tech Mono", fontSize: "0.8rem", marginBottom: 20 }}>[ LAUNCH: TOKEN CREATOR ]</div>
               <h1 style={{ fontFamily: "Orbitron", fontSize: "clamp(45px, 9vw, 100px)", lineHeight: 1, fontWeight: 900 }}>
                 <div className="glitch-wrap neon-text" data-text="TOMATO">TOMATO</div><br />
                 <span style={{ color: "#fff", fontWeight: 400, letterSpacing: "0.1em" }}>COIN</span>
@@ -158,7 +158,7 @@ export default function App() {
               </div>
 
               <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
-                <a href="https://jup.ag/?buy=CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon"target="_blank" rel="noreferrer" className="cta-btn">BUY $TOMATO</a>
+                <a href="https://jup.ag/?buy=2oqw8YjLJwsC7Y6pA5VKfZGLKRMQAs3yjbv9F4Ks7zeF"target="_blank" rel="noreferrer" className="cta-btn">BUY $TOMATO</a>
                 <a href="https://t.me/tomatocoinsolana" target="_blank" rel="noreferrer" className="cta-btn cta-btn-green">TELEGRAM</a>
               </div>
 
@@ -202,8 +202,8 @@ export default function App() {
             <h2 style={{ fontFamily: "Orbitron", fontSize: "2.5rem", marginBottom: 60 }}>TOKENOMICS<span className="neon-text">_</span></h2>
             <div className="tokenomics-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 25 }}>
               {[
-                { label: "Launch", value: "MOONSHOT", desc: "Fair launch completed on Moonshot. 100% transparent." },
-                { label: "Liquidity", value: "SECURED", desc: "Liquidity migration handled by Moonshot protocols." },
+                { label: "Launch", value: "TOKEN CREATOR", desc: "Launched via Token Creator. 100% transparent." },
+                { label: "Liquidity", value: "SECURED", desc: "Liquidity status is publicly verifiable on-chain." },
                 { label: "Supply", value: "1B", desc: "One Billion tokens. No more." },
                 { label: "Dev Alloc.", value: "0%", desc: "No dev wallets. Community owned from block 1." },
               ].map((t, i) => (
@@ -223,7 +223,7 @@ export default function App() {
             <h2 style={{ fontFamily: "Orbitron", fontSize: "2.5rem", marginBottom: 60 }}>ROADMAP<span className="neon-text">_</span></h2>
             <div style={{ borderLeft: "2px solid var(--neon-red)", paddingLeft: 40, marginLeft: 10 }}>
               {[
-                { p: "PHASE 01", t: "SOWING THE SEEDS", s: "DONE", items: ["1B Supply Launch", "Pump.fun Stealth", "Community Alpha"] },
+                { p: "PHASE 01", t: "SOWING THE SEEDS", s: "DONE", items: ["1B Supply Launch", "Token Creator Launch", "Community Alpha"] },
                 { p: "PHASE 02", t: "ORGANIC GROWTH", s: "ACTIVE", items: ["X Viral Push", "CoinGecko Listing", "First 5000 Holders"] },
                 { p: "PHASE 03", t: "THE HARVEST", s: "SOON", items: ["Tier 1 CEX", "Tomato DAO", "Global Dominance"] }
               ].map((phase, i) => (
